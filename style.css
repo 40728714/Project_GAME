@@ -1,0 +1,61 @@
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f2f1; /* Light greenish */
+  color: #2e7d32; /* Forest green text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+body {
+  background-image: url('forest_image.jpg'); /* Replace with your actual file name */
+  background-size: cover;
+  background-position: center;
+    background-attachment: fixed; /* optional: keeps image fixed during scroll */
+  font-family: Arial, sans-serif;
+  color: white; /* light text for dark image */
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #a5d6a7;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-image: url('forest-background.jpg'); /* optional background */
+  background-size: cover;
+  background-position: center;
+}
+#story-text {
+  background-color: #2e7d32; /* Light background to improve readability */
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto; /* Center horizontally */
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+button {
+  background-color: #388e3c;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2e7d32;
+}
+
+footer a {
+  color: #1b5e20;
+   margin: 0 10px;
+}
